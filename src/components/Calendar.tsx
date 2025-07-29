@@ -1,4 +1,5 @@
 import type { Booking } from '../types';
+import TimeSlot from './TimeSlot';
 
 export const TIMES = [
   '10:30 AM', '10:50 AM', '11:10 AM', '11:30 AM', '11:50 AM', '12:10 PM', '12:30 PM', '12:50 PM',
@@ -41,7 +42,14 @@ export default function Calendar({ date, bookings, onBook, onDelete }: Props) {
           const isPast = slotTime < now;
 
           return (
-            <></>
+            <TimeSlot
+              key={time}
+              time={time}
+              bookings={bookings}
+              onBook={onBook}
+              onDelete={onDelete}
+              isPast={isPast}
+            />
           );
         })}
       </div>
