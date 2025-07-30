@@ -43,7 +43,7 @@ The Firestore database consists of two main collections:
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/e36b29ed-2629-4c80-bd17-94a87a2b1fd9" alt="Screenshot 1" width="45%" />
-  <img src="https://github.com/user-attachments/assets/38368ae2-5bd9-4119-9c3d-0093ef6ca8ac" alt="Screenshot 2" width="45%" />
+  <img src="https://github.com/user-attachments/assets/4ac04100-c2b4-43ec-81f8-ce6df10610e5" alt="Screenshot 2" width="45%" />
 </p>
 <p align="center">
   <img src="https://github.com/user-attachments/assets/943c3d73-4675-4a1e-bb01-d1a0947d9f45" alt="Screenshot 3" width="45%" />
@@ -51,6 +51,7 @@ The Firestore database consists of two main collections:
 </p>
 
 ---
+
 
 ## Installation
 
